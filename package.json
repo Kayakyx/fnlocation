@@ -1,0 +1,26 @@
+{
+  "name": "fnlocation",
+  "version": "1.0.0",
+  "description": "Getting the location of a function in a file in Node",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava ./test/test.js"
+  },
+  "keywords": ["functionlocation", "function", "location"],
+  "author": "Kayakyx",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Kayakyx/fnlocation.git"
+  },
+  "devDependencies": {
+    "ava": "^5.3.1"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "license": "MIT"
+}
